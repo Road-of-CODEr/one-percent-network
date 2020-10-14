@@ -1,9 +1,9 @@
 ## 웹 브라우저가 메시지를 만든다.
 
-1. [HTTP 리퀘스트 메시지를 작성한다.](#Story 01. HTTP 리퀘스트 메시지를 작성한다.)
-2. [웹 서버의 IP 주소를 DNS 서버에 조회한다.](#Story 02. 웹 서버의 IP 주소를 DNS 서버에 조회한다)
-3. [전 세계의 DNS 서버가 연대한다.](#Story 03. 전 세계의 DNS 서버가 연대한다)
-4. [프로토콜 스택에 메시지 송신을 의뢰한다.](#Story 04. 프로토콜 스택에 메시지 송신을 의뢰한다)
+1. HTTP 리퀘스트 메시지를 작성한다
+2. 웹 서버의 IP 주소를 DNS 서버에 조회한다
+3. 전 세계의 DNS 서버가 연대한다
+4. 프로토콜 스택에 메시지 송신을 의뢰한다
 
 
 
@@ -589,7 +589,7 @@ Socket 라이브러리의 close 라는 프로그램 부품을 호출하여 프�
 - 웹 서버측는 응답 메시지의 송신을 완료했을 때, 먼저 close 를 호출하여 연결을 끊는다
 - 이것이 클라이언트측에 전달되고 클라이언트 소켓은 연결 끊기 단계로 들어간다
 
-![img-socket-process](./assets/img-socket-process.png)
+<img width="1234" alt="2" src="https://user-images.githubusercontent.com/46305139/95991595-ea48ec00-0e67-11eb-93fa-b16d45bf2a4b.png">
 > 출처: minhyung.park
 
 
